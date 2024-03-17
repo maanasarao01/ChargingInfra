@@ -27,5 +27,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run shellScript
-        run: chmod +x ./deploy.sh
-             ./deploy.sh
+        run: |
+          chmod +x ./deploy.sh
+          ./deploy.sh
