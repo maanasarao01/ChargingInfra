@@ -1,0 +1,56 @@
+[
+    {
+        "id": "C01",
+        "type": "Type 2 AC",
+        "connector": "J1772",
+        "wattage": 7.6,
+        "manufacturer": "Mennekes",
+        "ChargePointID": "CP1",
+        "location": "Majestic, Bangalore"
+    },
+    {
+        "id": "C02",
+        "type": "Type 2 AC",
+        "connector": "Tesla",
+        "wattage": 22,
+        "manufacturer": "Tesla",
+        "ChargePointID": "CP1",
+        "location": "Majestic, Bangalore"
+    },
+    {
+        "id": "C03",
+        "type": "DC Fast Charging",
+        "connector": "CCS",
+        "wattage": 24,
+        "manufacturer": "Duosida (China)",
+        "ChargePointID": "CP2",
+        "location": "Girinagar, Bangalore"
+    },
+    {
+        "id":"C04",
+        "type": "DC Fast Charging",
+        "connector": "CCS",
+        "wattage":200,
+        "manufacturer": "MennekesCombo",
+        "ChargePointID":"CP3",
+        "location": "Delhi"
+    },
+    {
+        "id":"C05",
+        "type": "Type 2 AC",
+        "connector": "Mennekes(Type 2)",
+        "wattage":22,
+        "manufacturer": "Mennekes",
+        "ChargePointID":"CP2",
+        "location": "Girinagar, Bangalore"
+    },
+    {
+        "id":"C05",
+        "type": "DC Fast Charging",
+        "connector": "CCS",
+        "wattage":350,
+        "manufacturer": "ABB",
+        "ChargePointID":"CP3",
+        "location": "Mumbai"
+    }
+]

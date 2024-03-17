@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: ChargingStation
+    ports:
+      - "27017:27017"
+  
+  estimationservice:
+    build: "https://github.com/maanasarao01/EstimationServer.git"
+    environment:
+      NODE_ENV: production
+    ports:
+      - 2001:2001
+
+  charginginfrastructure:
+    build: "https://github.com/maanasarao01/ChargingInfrastructure.git"
+    environment:
+      NODE_ENV: production
+      mongo_URI: mongodb://mongodb:27017/ChargingStation
+      PORT: 3003
+    ports:
+      - 3003:3003
+    depends_on:
+      - mongodb
+  
