@@ -45,7 +45,7 @@
         "location": "Girinagar, Bangalore"
     },
     {
-        "id":"C05",
+        "id":"C06",
         "type": "DC Fast Charging",
         "connector": "CCS",
         "wattage":350,
